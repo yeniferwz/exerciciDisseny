@@ -4,19 +4,16 @@ body {
   background-color: antiquewhite;
 }
 
-.pare {
+.explicacio__pare {
   color: blue;
   outline-style: dotted;
 }
 
-.span1 {}
+.explicacio__span1 {}
 
-.span2 {
+.explicacio__span2 {
   border: inherit;
   outline-style: inherit;
-}
-.miniHeader{
-  
 }
 article section {
   overflow: hidden;

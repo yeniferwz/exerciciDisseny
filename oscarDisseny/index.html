@@ -15,6 +15,9 @@
         <label for="desplegable">
             <h1>Importància de l'herència</h1>
         </label>
+
+
+
         <section>
             <p>En CSS cada propietat té certes característiques que en defineixen el seu comportament
             </p>
@@ -44,48 +47,46 @@
 
             .span1 {}
 
-            .span2 {             
-            border: inherit;
-            }
-            </pre>
-            <p class="pare"> Aquest paragraf és de la classe <em>pare</em> i té dos spans a dins. El primer no modifica
-                cap
-                atribut i el segón modifica l'atribut border a <strong>inherit</strong>. <span>Aquest és l'span que no
-                    modifica
-                    l'atribut border</span> i a continuació hi
-                ha un altre
-                <span class="span2">span que el defineix com a inherit</a>
-            </p>
-            <h1>Explicació</h1>
-            <p>La propietat border no s'hereda, per tant, quan a nivell de paragraf la definim només afecta al paràgraf
-                i no als
-                spans que conté (només es pinta el border del paràgraf). </p>
-            <p>Ara bé, després en el segón span es defineix <em>border:inherit</em> i per tant <strong>sí</strong> que
-                n'hereda
-                el valor</p>
+.span2 {             
+  border: inherit;
+}
+</pre>
+            <div class="explicacio">
+                <p class="explicacio__pare"> Aquest paragraf és de la classe <em>pare</em> i té dos spans a dins. El
+                    primer no modifica
+                    cap
+                    atribut i el segón modifica l'atribut border a <strong>inherit</strong>. <span>Aquest és l'span que
+                        no
+                        modifica
+                        l'atribut border</span> i a continuació hi
+                    ha un altre
+                    <span class="explicacio__span2">span que el defineix com a inherit</a>
+                </p>
+                <h1>Explicació</h1>
+                <p>La propietat border no s'hereda, per tant, quan a nivell de paragraf la definim només afecta al
+                    paràgraf
+                    i no als
+                    spans que conté (només es pinta el border del paràgraf). </p>
+                <p>Ara bé, després en el segón span es defineix <em>border:inherit</em> i per tant <strong>sí</strong>
+                    que
+                    n'hereda
+                    el valor</p>
+            </div>
         </section>
 
     </article>
     <article>
-        
-            <input id="desplegable1" type="checkbox">
-            <label for="desplegable1">
-                <h1>Importància de l'herència</h1>
-            </label>
-    
-     
+
+        <input id="desplegable1" type="checkbox">
+        <label for="desplegable1">
+            <h1>Importància de l'herència</h1>
+        </label>
+
+
 
         <section>
             <p>En CSS cada propietat té certes característiques que en defineixen el seu comportament
             </p>
-            <ul>
-                <li>Valor predeterminat
-                </li>
-                <li>Herencia
-                </li>
-                <li>Animable
-                </li>
-            </ul>
             <p>Si una propietat no és heredable, aleshores cada fill té el seu valor corresponent o predeterminat i no
                 n'hereda
                 el valor del pare
@@ -108,21 +109,28 @@
   border: inherit;
 }
 </pre>
-            <p class="pare"> Aquest paragraf és de la classe <em>pare</em> i té dos spans a dins. El primer no modifica
-                cap
-                atribut i el segón modifica l'atribut border a <strong>inherit</strong>. <span>Aquest és l'span que no
-                    modifica
-                    l'atribut border</span> i a continuació hi
-                ha un altre
-                <span class="span2">span que el defineix com a inherit</a>
-            </p>
-            <h1>Explicació</h1>
-            <p>La propietat border no s'hereda, per tant, quan a nivell de paragraf la definim només afecta al paràgraf
-                i no als
-                spans que conté (només es pinta el border del paràgraf). </p>
-            <p>Ara bé, després en el segón span es defineix <em>border:inherit</em> i per tant <strong>sí</strong> que
-                n'hereda
-                el valor</p>
+            <div class="explicacio">
+                <p class="explicacio__pare"> Aquest paragraf és de la classe <em>pare</em> i té dos spans a dins. El
+                    primer no modifica
+                    cap
+                    atribut i el segón modifica l'atribut border a <strong>inherit</strong>. <span>Aquest és l'span que
+                        no
+                        modifica
+                        l'atribut border</span> i a continuació hi
+                    ha un altre
+                    <span class="explicacio__span2">span que el defineix com a inherit</a>
+                </p>
+                <h1>Explicació</h1>
+                <p>La propietat border no s'hereda, per tant, quan a nivell de paragraf la definim només afecta al
+                    paràgraf
+                    i no als
+                    spans que conté (només es pinta el border del paràgraf). </p>
+                <p>Ara bé, després en el segón span es defineix <em>border:inherit</em> i per tant <strong>sí</strong>
+                    que
+                    n'hereda
+                    el valor</p>
+            </div>
+
         </section>
 
     </article>

@@ -12,9 +12,14 @@
 <body>
 
     <article>
-        <input id="uwu" type="checkbox">
-        <label for="uwu"> <h1>Importància de l'herència</h1></label>
-       
+        
+            <input id="desplegable" type="checkbox">
+            <label for="desplegable">
+                <h1>Importància de l'herència</h1>
+            </label>
+    
+        
+
         <section>
             <p>En CSS cada propietat té certes característiques que en defineixen el seu comportament
             </p>
@@ -67,9 +72,14 @@
 
     </article>
     <article>
-        <input id="uwu1" type="checkbox">
-        <label for="uwu1"><h1>Importància de l'herència</h1></label>
         
+            <input id="desplegable1" type="checkbox">
+            <label for="desplegable1">
+                <h1>Importància de l'herència</h1>
+            </label>
+    
+     
+
         <section>
             <p>En CSS cada propietat té certes característiques que en defineixen el seu comportament
             </p>
@@ -92,17 +102,17 @@
 
 
             <pre>
-    .pare {  
-      color: blue;
-      border: 4px solid orange;
-    }
-    
-    .span1 {}
-    
-    .span2 {             
-      border: inherit;
-    }
-    </pre>
+.pare {  
+  color: blue;
+  border: 4px solid orange;
+}
+
+.span1 {}
+
+.span2 {             
+  border: inherit;
+}
+</pre>
             <p class="pare"> Aquest paragraf és de la classe <em>pare</em> i té dos spans a dins. El primer no modifica
                 cap
                 atribut i el segón modifica l'atribut border a <strong>inherit</strong>. <span>Aquest és l'span que no
@@ -112,15 +122,12 @@
                 <span class="span2">span que el defineix com a inherit</a>
             </p>
             <h1>Explicació</h1>
-            <p>La propietat outline-style no s'hereda, per tant, quan a nivell de paragraf la definim només afecta al
-                paràgraf
+            <p>La propietat border no s'hereda, per tant, quan a nivell de paragraf la definim només afecta al paràgraf
                 i no als
                 spans que conté (només es pinta el border del paràgraf). </p>
-            <p>Ara bé, després en el segón span es defineix <em>outline-style:inherit</em> i per tant
-                <strong>sí</strong> que
+            <p>Ara bé, després en el segón span es defineix <em>border:inherit</em> i per tant <strong>sí</strong> que
                 n'hereda
-                el valor
-            </p>
+                el valor</p>
         </section>
 
     </article>

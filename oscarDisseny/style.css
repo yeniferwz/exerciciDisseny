@@ -35,7 +35,17 @@ body {
   input{
     display:none;
   }
-  
+
   label{
     background-color: red;
+  }
+
+  .pareParagraf{
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .span2Paragraf{
+    border:inherit;
   }

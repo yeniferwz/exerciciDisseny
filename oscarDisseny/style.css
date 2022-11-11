@@ -26,29 +26,38 @@ article section {
 }
 
 /* article:hover section{
-    max-height: 100vh;
-    overflow: scroll;
-    
-  } */
-  input:checked~section{
-    max-height: 100vh;
-    overflow: scroll;
-  }
-    
-  input{
-    display:none;
-  }
+  max-height: 100vh;
+  overflow: scroll;
+  
+} */
+input:checked~section{
+  max-height: 100vh;
+  overflow: scroll;
+}
+  
+input{
+  display:none;
+}
 
-  label{
-    background-color: red;
-  }
+label{
+  background-color: red;
+}
 
-  .pareParagraf{
-    border-top: 2px solid grey;
-    border-left: 2px solid grey;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-  }
-  .span2Paragraf{
-    border:inherit;
-  }
+.pareParagraf{
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+.span2Paragraf{
+  border:inherit;
+}
+
+ul{
+  list-style: square outside none;
+  padding: 20px;
+}
+
+li{
+  display:list-item;
+}

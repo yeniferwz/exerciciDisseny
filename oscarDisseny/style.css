@@ -28,7 +28,6 @@ article section {
 /* article:hover section{
   max-height: 100vh;
   overflow: scroll;
-  
 } */
 input:checked~section{
   max-height: 100vh;
@@ -49,6 +48,7 @@ label{
   border-bottom: 2px solid black;
   border-right: 2px solid black;
 }
+
 .span2Paragraf{
   border:inherit;
 }
@@ -60,4 +60,9 @@ ul{
 
 li{
   display:list-item;
+}
+
+h1{
+  font-size: 40px; 
+  color: #456787;
 }

@@ -1,0 +1,39 @@
+body {
+    margin: 0 20%;
+    font-size: 1.25rem;
+  }
+  .pare {
+    color: blue;
+    outline-style:dotted;
+  }
+  
+  .span1 {
+
+  }
+  
+  .span2 { 
+    border: inherit;
+    outline-style: inherit;
+  }
+  article section{
+    overflow: hidden;
+    max-height:0;
+    transition: all 5s;
+    border: 5px solid black;
+  }
+  /* article:hover section{
+    max-height: 100vh;
+    overflow: scroll;
+    
+  } */
+  input:checked~section{
+    max-height: 100vh;
+    overflow: scroll;
+  }
+    
+  input{
+    display:none;
+  }
+  label{
+    background-color: red;
+  }
